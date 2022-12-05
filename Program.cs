@@ -48,7 +48,8 @@ else
 
 //C функцией
 
-/* int Posnum(int num)
+/* 
+int Posnum(int num)
 {   
     int minus = -1;
     string str = num.ToString();
@@ -60,6 +61,21 @@ else
 }
 Console.Write("Введите число: ");
 int newnum = Convert.ToInt32(Console.ReadLine());
-int res = Posnum(newnum);
+Posnum(newnum);
 */
 
+//Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+
+/* void Day(int num)
+{
+    if ((num <= 8 &&num == 6)||(num <= 8 &&num == 7) )
+        Console.WriteLine("Ура, этот день выходной!");
+    else if (num >=1 && num <=5)
+        Console.WriteLine("Будний день.");
+    else 
+        Console.WriteLine("Введено не верное число!");
+}
+Console.Write("Введите число (от 1 до 7): ");
+int newnum = Convert.ToInt32(Console.ReadLine());
+Day(newnum);
+*/
